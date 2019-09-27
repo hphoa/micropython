@@ -16,3 +16,10 @@ BOOT0 and NRST, releasing NRST to access serial port download, DFU download, pro
 
 The GND is changed to 5V B9 5V GND, which can directly connect a small steering gear without additional wiring and reduce development time.
 
+data from STM32CubeMX/STM32CubeIDE
+
+// HSE is 25MHz, CPU freq set to 96MHz
+#define MICROPY_HW_CLK_PLLM (25)
+#define MICROPY_HW_CLK_PLLN (192)
+#define MICROPY_HW_CLK_PLLP (RCC_PLLP_DIV2)
+#define MICROPY_HW_CLK_PLLQ (4)
