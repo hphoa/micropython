@@ -6,8 +6,11 @@ In the F401 series, the IO port contains all the basic functions.
 
 25MHZ high speed crystal oscillator 32.768k low speed crystal oscillator
 STM32F411CEU6 core board 128KB RAM 512KB Flash
+
 No DAC feature
+
 LED PC13
+
 Switch is on PB2
 
 BOOT settings are changed from jumper to button to reduce the installation trouble by pressing 
