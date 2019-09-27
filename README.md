@@ -38,6 +38,7 @@ data from STM32CubeMX/STM32CubeIDE, please refer to file mpconfigboard.h
 #define MICROPY_HW_UART2_RX     (pin_A3)
 
 // UART 2 connects to the STM32F103 (STLINK) on the Nucleo board
+
 // and this is exposed as a USB Serial port.
 
 #define MICROPY_HW_UART_REPL        PYB_UART_2
